@@ -7,6 +7,10 @@
   "targets": {
     "main": false
   },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
   "scripts": {
     "start:dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&&nodemon server.js",
